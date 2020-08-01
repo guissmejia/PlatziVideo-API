@@ -1,14 +1,18 @@
 {
   "name": "ssr-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the creation of the API for the PlatziVideo project using Node.js and MongoDB (SSR)",
   "main": "index.js",
   "scripts": {
     "dev": "DEBUG=express:*,app:* nodemon index",
     "start": "NODE_ENV=production node index"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "passport",
+    "express",
+    "axios"
+  ],
+  "author": "Guiselle Mejia <guissmejia@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^7.4.2",

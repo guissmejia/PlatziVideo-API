@@ -1,7 +1,7 @@
 {
   "name": "movies-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the creation of the API for the PlatziVideo project using Node.js and MongoDB",
   "main": "index.js",
   "scripts": {
     "dev": "DEBUG=app:* nodemon index",
@@ -10,8 +10,11 @@
     "cover": "nyc npm run test",
     "report": "nyc report --reporter=html && open coverage/index.html"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "passport",
+    "express"
+  ],
+  "author": "Guiselle Mejia <guissmejia@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^7.4.2",
